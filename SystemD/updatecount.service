@@ -1,0 +1,10 @@
+[Unit]
+Description=Update count and checks for kernel upgrade
+Wants=updatecount.timer
+
+[Service]
+WorkingDirectory=/path/checkupdates
+ExecStart=/bin/bash /path/cupdate.sh
+
+[Install]
+WantedBy=multi-user.target

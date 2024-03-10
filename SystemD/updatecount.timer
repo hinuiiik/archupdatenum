@@ -1,0 +1,11 @@
+[Unit]
+Description=List number of updates available
+Requires=updatecount.service
+
+[Timer]
+Unit=updatecount.service
+OnBootSec=15min
+OnUnitActiveSec=2h
+
+[Install]
+WantedBy=timers.target

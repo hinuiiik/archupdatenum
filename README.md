@@ -10,3 +10,4 @@ Also uses paru to to check for AUR updates, but this can be changed to an AUR he
 * Move the files under the SystemD folder to ~/.config/systemd/user
 * Change the paths in the systemd service file to point to the folder with the bash script
 * Change your shell's greeting. I have a fish example included.
+* Enable the local systemd timer
